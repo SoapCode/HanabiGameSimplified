@@ -1,6 +1,5 @@
 # HanabiGameSimplified
-This single cs file implements a [Hanabi](https://en.wikipedia.org/wiki/Hanabi_(card_game))  
-card game with simplified rules.
+This single cs file implements a [Hanabi](https://en.wikipedia.org/wiki/Hanabi_(card_game)) card game with simplified rules.
 
 There are only 2 players in the game, each turn they swap.
 
