@@ -33,8 +33,13 @@ Game continues until one of players plays incorrect card, gives incorrect inform
 Example input
 
 Start new game with deck R1 R2 R3 R4 R5 Y1 Y2 Y3 Y4 Y5 W1 W2 W3 W4 W5 B2 B1
+
 Play card 0
+
 Tell color Red for cards 0 1 2 3
+
 Tell rank 1 for card 0
+
 Play card 0
+
 Play card 3
