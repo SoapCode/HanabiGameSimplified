@@ -28,7 +28,7 @@ player gives next player information about all cards of the specified color in h
 4.**"Tell rank [0-4]{1,5}"** - 
 same as with tell color, but with rank.
 
-Game continues until one of players plays incorrect card, gives incorrect information or empties the deck. In this case game restarts and waits for the new "Start new game" command. In case player enters incorrect input - game immediately terminates.
+Game continues until one of players plays incorrect card, gives incorrect information or empties the deck. In this case game restarts and waits for the new "Start new game" command. In case player enters incorrect input or null input - game immediately terminates.
 
 Example input
 
