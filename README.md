@@ -12,16 +12,16 @@ Then player can start entering commands.
 Player can enter 1 of 4 commands:
 
 1."Play card [0-4]{1,5}" - 
-Attempts to add card to the table, if attempt fails - game restarts.
+attempts to add card to the table, if attempt fails - game restarts.
 
 2."Drop card [0-4]" - 
-Removes card from players hand, and adds it to discard.
+removes card from players hand, and adds it to discard.
 
 3."Tell color (Red|Blue|Yellow|Green|White) for cards [0-4]{1,5}" - 
-Player gives next player information about all cards of the specified color in his hand.
+player gives next player information about all cards of the specified color in his hand.
 
 4."Tell rank [0-4]{1,5}" - 
-Same as with tell color, but with rank.
+same as with tell color, but with rank.
 
 Game continues until one of players makes incorrect turn, or enters incorrect input.
 In this case game immediately terminates.
