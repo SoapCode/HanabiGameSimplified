@@ -4,6 +4,9 @@ card game with simplified rules.
 
 There are only 2 players in the game, each turn they swap.
 
+The goal of the game, to create 5 card decks(5 cards each) of the same color in ascending order on the table
+by adding cards.
+
 Game starts when user enters specific start game command
 
 **"Start new game with deck(\s[RGBYW][1-5]){11,50}"** - for example:
@@ -28,7 +31,7 @@ player gives next player information about all cards of the specified color in h
 4.**"Tell rank [0-4]{1,5}"** - 
 same as with tell color, but with rank.
 
-Game continues until one of players plays incorrect card, gives incorrect information or empties the deck. In this case game restarts and waits for the new "Start new game" command. In case player enters incorrect input or null input - game immediately terminates.
+Game continues until one of players plays incorrect card, gives incorrect information, empties the deck or when there is 25 cards on the table. In this case game restarts and waits for the new "Start new game" command. In case player enters incorrect input or null input - game immediately terminates.
 
 Example input
 
